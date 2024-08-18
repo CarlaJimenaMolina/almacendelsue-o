@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almacén del Sueño</title>
+    <link rel="icon" href="imagenes/ilovepdf_pages-to-jpg/ALMACEN_page-0001.jpg" type="image/png"> 
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            
+            <div class="container-fluid">
+                <div id="logo ">
+                    <img src="imagenes/ilovepdf_pages-to-jpg/ALMACEN_page-0002.jpg" alt="Logo" id="logo">
+                </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active ms-5" aria-current="page" href="#inicio" style="color: #114D72;"><b>Nuestras promos</b></a>
+                  <a class="nav-link active ms-3" aria-current="page" href="#sobre-mi" style="color: #114D72;"><b>Encontrá tu Cannon</b></a>
+                  <a class="nav-link active ms-3" aria-current="page" href="#productos" style="color: #114D72;"><b>Nuestros Productos</b></a>
+                  <a class="nav-link active ms-3" aria-current="page" href="#contacto" style="color: #114D72;"><b>Contactanos</b></a>
+                </div>
+              </div>
+            </div>
+        </nav>
+
+
+
+        
+        <main>
+            <section id="inicio">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="imagenes/slyers/WhatsApp Image 2024-08-13 at 16.03.47.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/slyers/WhatsApp Image 2024-08-13 at 16.03.48 (1).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="imagenes/slyers/WhatsApp Image 2024-08-13 at 16.03.48.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+
+                
+                
+            </section>
+            <section id="sobre-mi">
+                <h2>Encontrá tu Cannon</h2>
+                <div class="filter-section">
+                    <div class="filter-item">
+                        <label for="peso">¿Qué peso tiene que soportar tu colchón?</label>
+                        <select id="peso">
+                            <option value="">Seleccionar</option>
+                            <option value="70">Hasta 70 kg</option>
+                            <option value="80">Hasta 80 kg</option>
+                            <option value="90">Hasta 90 kg</option>
+                            <option value="120">Hasta 120 kg</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="sensacion">¿Qué sensación preferís?</label>
+                        <select id="sensacion">
+                            <option value="">Seleccionar</option>
+                            <option value="Firme">Firme</option>
+                            <option value="Extra Firme">Extra Firme</option>
+                        </select>
+                    </div>
+                    <div class="filter-item">
+                        <label for="tamaño">¿Qué medida estás buscando?</label>
+                        <select id="tamaño">
+                            <option value="">Seleccionar</option>
+                            <option value="1">1 plaza</option>
+                            <option value="1 y media">1 plaza y media</option>
+                            <option value="2">2 plazas</option>
+                            <option value="Queen">Queen</option>
+                            <option value="King">King</option>
+                        </select>
+                    </div>
+                    <button id="buscar">Buscar</button>
+                </div>
+                <div id="resultados" class="resultados">
+                    <!-- Resultados de la búsqueda se mostrarán aquí -->
+                </div>
+            </section>
+            <section id="productos">
+                <h2>Nuestros Productos</h2>
+                <div class="product-grid">
+                    <div class="product-item colchones"><a onclick="mostrarCarrusel('producto1')">Colchones</a></div>
+                    <div class="product-item bases"><a onclick="mostrarCarrusel('producto2')">Bases</a></div>
+                    <div class="product-item sommiers"><a onclick="mostrarCarrusel('producto3')">Sommiers</a></div>
+                    <div class="product-item almohadas"><a onclick="mostrarCarrusel('producto4')">Almohadas</a></div>
+                    <div class="product-item respaldos"><a onclick="mostrarCarrusel('producto5')">Respaldos y bauleras</a></div>
+                    <!--<div class="product-item blancos"><a onclick="mostrarCarrusel('producto6')">Blancos</a></div>-->
+                </div>
+                
+            </section>
+            <section id="seccion-carrusel">
+                <div id="carrusel-container">
+                    <!-- Aquí se mostrará el carrusel -->
+                </div>
+            </section>
+            <section id="contacto">
+                <section id="sucursales">
+                    <h2>Nuestras Sucursales</h2>
+                    <div class="tabs">
+                        <button type="button" class="btn btn-light"onclick="openSucursal(event, 'Sucursal1')">Sucursal Mendoza</button>
+                        <button type="button" class="btn btn-light"onclick="openSucursal(event, 'Sucursal2')">Sucursal Maipú</button>
+                    </div>
+
+                    <div id="Sucursal1" class="tabcontent">
+                        <p><b>Av Godoy Cruz 99, esquina 9 de Julio, Ciudad Mza</b></p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.540989194691!2d-68.8414117235701!3d-32.88386206872156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091ef5dfc143%3A0x5ad12cbe772f83de!2sAv.%20Godoy%20Cruz%2099%2C%20M5500DQA%20Mendoza!5e0!3m2!1ses-419!2sar!4v1723551465881!5m2!1ses-419!2sar" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div id="Sucursal2" class="tabcontent" style="display:none">
+                        <p><b>Calle Mitre 105, esquina Padre Vasquez</b></p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.847269667388!2d-68.7905334235663!3d-32.98143107364758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0cbf91a0fe17%3A0x9df904fe027e4043!2sBartolome%20Mitre%20105%2C%20M5515%20Maip%C3%BA%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1723551399956!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
+                <section id="logo-whatsapp"><a href="https://wa.me/5492617777092" target="_blank"><img src="imagenes/logo-whatsapp2.png" alt="WhatsApp"></a></section>
+            
+            </section>
+        </main>
+        <footer>
+            <section id="contenido-footer">
+                <div class="info-contacto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="64" stroke-dashoffset="64" d="M8 3C8.5 3 10.5 7.5 10.5 8C10.5 9 9 10 8.5 11C8 12 9 13 10 14C10.3943 14.3943 12 16 13 15.5C14 15 15 13.5 16 13.5C16.5 13.5 21 15.5 21 16C21 18 19.5 19.5 18 20C16.5 20.5 15.5 20.5 13.5 20C11.5 19.5 10 19 7.5 16.5C5 14 4.5 12.5 4 10.5C3.5 8.5 3.5 7.5 4 6C4.5 4.5 6 3 8 3Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="64;0"/><animateTransform attributeName="transform" begin="0.6s;lineMdPhoneCallLoop0.begin+2.6s" dur="0.5s" type="rotate" values="0 12 12;15 12 12;0 12 12;-12 12 12;0 12 12;12 12 12;0 12 12;-15 12 12;0 12 12"/></path><path stroke-dasharray="4" stroke-dashoffset="4" d="M14 7.04404C14.6608 7.34734 15.2571 7.76718 15.7624 8.27723M16.956 10C16.6606 9.35636 16.2546 8.77401 15.7624 8.27723" opacity="0"><set id="lineMdPhoneCallLoop0" attributeName="opacity" begin="0.7s;lineMdPhoneCallLoop0.begin+2.7s" to="1"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s;lineMdPhoneCallLoop0.begin+2.7s" dur="0.2s" values="4;8"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="1.3s;lineMdPhoneCallLoop0.begin+3.3s" dur="0.3s" values="0;4"/><set attributeName="opacity" begin="1.6s;lineMdPhoneCallLoop0.begin+3.6s" to="0"/></path><path stroke-dasharray="10" stroke-dashoffset="10" d="M20.748 9C20.3874 7.59926 19.6571 6.347 18.6672 5.3535M15 3.25203C16.4105 3.61507 17.6704 4.3531 18.6672 5.3535" opacity="0"><set attributeName="opacity" begin="1s;lineMdPhoneCallLoop0.begin+3s" to="1"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="1s;lineMdPhoneCallLoop0.begin+3s" dur="0.2s" values="10;20"/><animate fill="freeze" attributeName="stroke-dashoffset" begin="1.5s;lineMdPhoneCallLoop0.begin+3.5s" dur="0.3s" values="0;10"/><set attributeName="opacity" begin="1.8s;lineMdPhoneCallLoop0.begin+3.8s" to="0"/></path></g></svg>
+                    <p><b>Teléfono:</b> </p>
+                    <p>+549 261 777 7092</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="-5 -2 24 24"><path fill="currentColor" d="M12 7A5 5 0 1 0 2 7c0 1.726 1.66 5.031 5 9.653c3.34-4.622 5-7.927 5-9.653M7 20Q0 10.865 0 7a7 7 0 1 1 14 0q0 3.865-7 13m0-9a4 4 0 1 1 0-8a4 4 0 0 1 0 8m0-2a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/></svg>
+                    <p><b>Encontranos en:</b></p>
+                    <p>Mitre 105, esquina Padre Vasquez, Maipú</p>
+                    <p>Av. Godoy Cruz 99, esquina 9 de julio, Ciudad</p>
+                    
+                    <div id="redes-sociales">
+                        <h3>Seguinos en las redes</h3>
+                        <div id="logo-instagram">
+                            <a href="https://www.instagram.com/almacendelsueno_?igsh=MXdhNjE4bGR4cGtvZw==" target="_blank">
+                                <img src="imagenes/logo-instagram.png" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <p>&copy; 2024 Mi Página Web</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

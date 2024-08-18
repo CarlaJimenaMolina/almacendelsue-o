@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 30;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto; /* Centrando el navbar */
+}
+
+#logo {
+    max-height: 120px; /* Asegura que el logo no sea demasiado grande */
+}
+
+#menu-items {
+    display: flex;
+    gap: 2rem; /* Espacio entre las opciones del menú */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-items li a {
+    font-family: raleway;
+    text-decoration: none;
+    color: #114D72;
+    font-weight: bold;
+}
+
+#menu-items li a:hover {
+    color: #57a9db; /* Cambia el color cuando se pasa el mouse sobre las opciones del menú */
+    text-decoration: underline;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+
+
+#inicio {
+    font-family: raleway;
+    text-shadow: rgba(52, 99, 141, 0.2);
+    background-color: #9eb4c5;
+    color: #0f3a55;
+}
+
+
+
+#sobre-mi {
+    background-color: #bcccdb;
+}
+
+#contacto {
+    background-color:#a1b7cc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.filter-section {
+    padding: 1rem;
+}
+
+.filter-item {
+    margin-bottom: 1rem;
+}
+
+.filter-item label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.filter-item select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#buscar {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #eb69bb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultados {
+    height: 100%; /* El tamaño reducido del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+    overflow: hidden;
+    position: relative;
+}
+
+.resultado-item img{
+    width: 30%;
+    max-width: 30%;
+    margin: 0 auto; /* Centra el carrusel en la página */
+    height: auto; /* Asegura que la imagen mantenga su proporción */
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.resultados {
+    margin-top: 1rem;
+}
+
+.resultado-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.product-item {
+    background-color: #114D72;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-item a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo del logo de WhatsApp */
+#logo-whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 40px;
+    width: 80px; /* Tamaño reducido */
+    height: 80px;
+    z-index: 1000; /* Asegura que el logo esté por encima de otros elementos */
+}
+
+#logo-whatsapp img {
+    width: 200%;
+    height: 200%;
+    object-fit: contain;
+    border-radius: 50%; /* Para que el logo sea redondo */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto flotante */
+}
+
+#logo-instagram {
+    width: 80px; /* Ancho del contenedor */
+    height: 80px; /* Alto igual al ancho para hacerlo cuadrado */
+    overflow: hidden; /* Oculta cualquier parte que se salga del contenedor */
+    border-radius: 50%; /* Hace el contenedor redondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff; /* Fondo blanco para asegurar que el área transparente se vea bien */
+}
+
+#logo-instagram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen al contenedor, manteniendo las proporciones */
+    border-radius: 50%; /* Asegura que la imagen también sea redonda */
+}
+
+
+
+/* Ajustes para los tabs de sucursales */
+.tabcontent {
+    display: none;
+    padding: 20px;
+}
+
+.tabcontent iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+#contenido-footer {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.info-contacto p {
+    margin: 0.5rem 0;
+}
+
+#redes-sociales {
+    margin-top: 1rem;
+}
+
+#logo-instagram {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 auto; /* Centra el logo de Instagram */
+}
+
+#logo-instagram img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+.opciones button {
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#seccion-carrusel{
+    background-color: #96a3ac;
+}
+
+#carrusel-container {
+    width: 100%;
+    max-width: 500px; /* El tamaño reducido del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+    overflow: hidden;
+    position: relative;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carrusel img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* Asegura que la imagen mantenga su proporción */
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.carrusel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none; /* Hace que los clics pasen solo a los botones */
+}
+
+.carrusel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    pointer-events: all; /* Permite que los botones sean clickeables */
+    z-index: 2;
+}
+
+.carrusel-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Un poco más oscuro al pasar el cursor */
+}
