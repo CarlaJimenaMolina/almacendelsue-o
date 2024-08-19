@@ -25,7 +25,7 @@ nav {
 }
 
 #logo {
-    max-height: 80px; /* Asegura que el logo no sea demasiado grande */
+    max-height: 120px; /* Asegura que el logo no sea demasiado grande */
 }
 
 #menu-items {
@@ -139,16 +139,6 @@ footer {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 1rem;
-}
-
-/* Estilo para dispositivos móviles */
-@media (max-width: 850px) {
-    .resultado-item img {
-        width: 100%; /* Aumenta el tamaño de la imagen en dispositivos móviles */
-        max-width: none;
-        height: auto; /* Mantiene la proporción de la imagen */
-        transform: none; /* No es necesario mover la imagen ya que se ajusta al contenedor */
-    }
 }
 
 .product-grid {
@@ -275,11 +265,6 @@ footer p {
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
-}
-
-.tabs button {
-    flex: 1; /* Hace que los botones se ajusten a diferentes tamaños de pantalla */
-    margin: 5px; /* Espacio alrededor de cada botón */
 }
 
 #seccion-carrusel{
