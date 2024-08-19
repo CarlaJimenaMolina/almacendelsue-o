@@ -1,24 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Elimina el margen */
-    padding: 0; /* Elimina el padding */
+    margin: 20;
+    padding: 30;
     background-color: #f0f0f0;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 0; /* Elimina el padding */
+    padding: 1rem;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-main {
-    width: 100%;
-    max-width: 100%;
-    padding: 0; /* Elimina el padding */
-    margin: 0; /* Asegúrate de que no haya margen */
 }
 
 nav {
@@ -128,23 +121,13 @@ footer {
     position: relative;
 }
 
-.resultado-item img {
-    width: 30%; /* Tamaño de la imagen en pantallas grandes */
-    max-width: 100%;
+.resultado-item img{
+    width: 30%;
+    max-width: 30%;
     margin: 0 auto; /* Centra el carrusel en la página */
-    height: auto; /* Mantiene la proporción de la imagen */
+    height: auto; /* Asegura que la imagen mantenga su proporción */
     flex-shrink: 0;
     object-fit: contain;
-}
-
-/* Estilo para dispositivos móviles */
-@media (max-width: 768px) {
-    .resultado-item img {
-        width: 100%; /* Aumenta el tamaño de la imagen en dispositivos móviles */
-        max-width: none;
-        height: auto; /* Mantiene la proporción de la imagen */
-        transform: none; /* No es necesario mover la imagen ya que se ajusta al contenedor */
-    }
 }
 
 .resultados {
@@ -158,54 +141,14 @@ footer {
     margin-bottom: 1rem;
 }
 
-#seccion-carrusel{
-    background-color: #96a3ac;
-}
-
-#carrusel-container {
-    width: 100%;
-    max-width: 500px; /* El tamaño reducido del carrusel */
-    margin: 0 auto; /* Centra el carrusel en la página */
-    overflow: hidden;
-    position: relative;
-}
-
-.carrusel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-}
-
-.carrusel img {
-    width: 100%;
-    max-width: 100%;
-    height: auto; /* Asegura que la imagen mantenga su proporción */
-    flex-shrink: 0;
-    object-fit: contain;
-}
-
-.carrusel-buttons {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    pointer-events: none; /* Hace que los clics pasen solo a los botones */
-}
-
-.carrusel-buttons button {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: none;
-    color: white;
-    padding: 10px;
-    cursor: pointer;
-    pointer-events: all; /* Permite que los botones sean clickeables */
-    z-index: 2;
-}
-
-.carrusel-buttons button:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Un poco más oscuro al pasar el cursor */
+/* Estilo para dispositivos móviles */
+@media (max-width: 768px) {
+    .resultado-item img {
+        width: 100%; /* Aumenta el tamaño de la imagen en dispositivos móviles */
+        max-width: none;
+        height: auto; /* Mantiene la proporción de la imagen */
+        transform: none; /* No es necesario mover la imagen ya que se ajusta al contenedor */
+    }
 }
 
 .product-grid {
@@ -272,15 +215,15 @@ footer {
     padding: 20px;
 }
 
-.tabs button {
-    flex: 1; /* Hace que los botones se ajusten a diferentes tamaños de pantalla */
-    margin: 5px; /* Espacio alrededor de cada botón */
-}
-
 .tabcontent iframe {
     width: 100%;
     height: 300px;
     border: 0;
+}
+
+.tabs button {
+    flex: 1; /* Hace que los botones se ajusten a diferentes tamaños de pantalla */
+    margin: 5px; /* Espacio alrededor de cada botón */
 }
 
 footer {
@@ -339,3 +282,52 @@ footer p {
     cursor: pointer;
 }
 
+#seccion-carrusel{
+    background-color: #96a3ac;
+}
+
+#carrusel-container {
+    width: 100%;
+    max-width: 500px; /* El tamaño reducido del carrusel */
+    margin: 0 auto; /* Centra el carrusel en la página */
+    overflow: hidden;
+    position: relative;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carrusel img {
+    width: 100%;
+    max-width: 100%;
+    height: auto; /* Asegura que la imagen mantenga su proporción */
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.carrusel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none; /* Hace que los clics pasen solo a los botones */
+}
+
+.carrusel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    pointer-events: all; /* Permite que los botones sean clickeables */
+    z-index: 2;
+}
+
+.carrusel-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Un poco más oscuro al pasar el cursor */
+}
