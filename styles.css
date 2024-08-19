@@ -254,6 +254,11 @@ footer {
     border: 0;
 }
 
+.tabs button {
+    flex: 1; /* Hace que los botones se ajusten a diferentes tamaños de pantalla */
+    margin: 5px; /* Espacio alrededor de cada botón */
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -358,8 +363,6 @@ footer p {
 
 .carrusel-buttons button:hover {
     background-color: rgba(0, 0, 0, 0.8); /* Un poco más oscuro al pasar el cursor */
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> parent of 17d0bfb (ajustes)
+}
