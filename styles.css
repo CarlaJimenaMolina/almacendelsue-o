@@ -1,17 +1,30 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20;
-    padding: 30;
+    margin: 0; /* Elimina el margen */
+    padding: 0; /* Elimina el padding */
     background-color: #f0f0f0;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0; /* Elimina el padding */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    width: 100%;
+    max-width: 100%;
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Asegúrate de que no haya margen */
 }
 
 nav {
@@ -25,8 +38,13 @@ nav {
 }
 
 #logo {
-    max-height: 90px; /* Asegura que el logo no sea demasiado grande */
+    max-height: 80px; /* Asegura que el logo no sea demasiado grande */
+
 }
+@media (max-width: 768px) {
+    #logo {
+        max-height: 50px;
+    }
 
 #menu-items {
     display: flex;
@@ -51,6 +69,21 @@ nav {
 main {
     padding: 1rem;
 }
+
+.carousel {
+    width: 100%;
+}
+
+.carousel-inner {
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Esto asegura que la imagen mantenga su proporción */
+    object-fit: cover; /* Esto asegura que la imagen cubra el contenedor */
+}
+
 
 section {
     margin-bottom: 2rem;
@@ -129,6 +162,16 @@ footer {
     flex-shrink: 0;
     object-fit: contain;
 }
+
+/* Estilo para dispositivos móviles */
+@media (max-width: 768px) {
+    .resultado-item img {
+        width: 80%; /* Aumenta el tamaño de la imagen en dispositivos móviles */
+        max-width: none;
+        height: auto; /* Mantiene la proporción de la imagen */
+        transform: none; /* No es necesario mover la imagen ya que se ajusta al contenedor */
+    }
+
 
 .resultados {
     margin-top: 1rem;
@@ -315,4 +358,8 @@ footer p {
 
 .carrusel-buttons button:hover {
     background-color: rgba(0, 0, 0, 0.8); /* Un poco más oscuro al pasar el cursor */
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of 17d0bfb (ajustes)
