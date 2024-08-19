@@ -1,84 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 30px;
+    margin: 20;
+    padding: 30;
     background-color: #f0f0f0;
-    font-size: 16px; /* Tamaño base para el texto */
-    line-height: 1.5; /* Mejora la legibilidad del texto */
 }
-
-
-
-/* Estilos específicos para dispositivos con pantallas más pequeñas */
-@media (max-width: 850px) {
-    body {
-        font-size: 18px; /* Aumenta el tamaño de la fuente en dispositivos móviles */
-    }
-
-    header {
-        padding: 1.5rem; /* Aumenta el padding en el header para mayor espacio */
-    }
-
-    .container-fluid {
-        padding: 1.5rem; /* Asegura que haya suficiente espacio alrededor del contenido */
-    }
-
-    h1 {
-        font-size: 2rem; /* Ajusta el tamaño de los títulos principales */
-    }
-
-    h2 {
-        font-size: 1.75rem; /* Ajusta el tamaño de los títulos secundarios */
-    }
-
-    p {
-        font-size: 1.125rem; /* Ajusta el tamaño de los párrafos */
-    }
-
-    .btn {
-        font-size: 1.25rem; /* Ajusta el tamaño de las fuentes en los botones */
-        padding: 0.75rem 1.5rem; /* Ajusta el padding de los botones */
-    }
-
-    .tabs button {
-        width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
-        margin-bottom: 1rem; /* Espacio entre los botones */
-    }
-
-    .resultado-item img {
-        width: 100%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
-        height: auto; /* Mantiene la proporción de la imagen */
-    }
-
-    .carousel {
-        width: 100%; /* Ajusta el ancho del carrusel */
-    }
-}
-
-/* Estilos para dispositivos con pantallas muy pequeñas (por ejemplo, teléfonos en orientación vertical) */
-@media (max-width: 850px) {
-    body {
-        font-size: 20px; /* Aumenta aún más el tamaño de la fuente en pantallas muy pequeñas */
-    }
-
-    h1 {
-        font-size: 2.5rem; /* Aumenta el tamaño de los títulos principales */
-    }
-
-    h2 {
-        font-size: 2rem; /* Aumenta el tamaño de los títulos secundarios */
-    }
-
-    .container {
-        padding: 1rem; /* Ajusta el padding en contenedores */
-    }
-
-    .btn {
-        font-size: 1.5rem; /* Aumenta el tamaño de la fuente en los botones */
-        padding: 1rem 2rem; /* Ajusta el padding de los botones */
-    }
-}
-
 
 .container {
     width: 100%;
@@ -87,20 +12,6 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 1rem;
-    }
-    
-    .header {
-        font-size: 1.5rem;
-    }
-
-    .sidebar {
-        display: none; /* Oculta elementos en pantallas pequeñas */
-    }
 }
 
 nav {
@@ -114,7 +25,7 @@ nav {
 }
 
 #logo {
-    max-height: 80px; /* Asegura que el logo no sea demasiado grande */
+    max-height: 120px; /* Asegura que el logo no sea demasiado grande */
 }
 
 #menu-items {
@@ -310,11 +221,6 @@ footer {
     border: 0;
 }
 
-.tabs button {
-    flex: 1; /* Hace que los botones se ajusten a diferentes tamaños de pantalla */
-    margin: 5px; /* Espacio alrededor de cada botón */
-}
-
 footer {
     background-color: #333;
     color: white;
@@ -369,6 +275,11 @@ footer p {
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.tabs button {
+    flex: 1; /* Hace que los botones se ajusten a diferentes tamaños de pantalla */
+    margin: 5px; /* Espacio alrededor de cada botón */
 }
 
 #seccion-carrusel{
