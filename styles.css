@@ -12,37 +12,37 @@ body {
 /* Estilos específicos para dispositivos con pantallas más pequeñas */
 @media (max-width: 768px) {
     body {
-        font-size: 14px; /* Reduce el tamaño de la fuente en dispositivos móviles */
+        font-size: 18px; /* Aumenta el tamaño de la fuente en dispositivos móviles */
     }
 
     header {
-        padding: 1rem; /* Aumenta el padding en el header para mayor espacio */
+        padding: 1.5rem; /* Aumenta el padding en el header para mayor espacio */
     }
 
     .container {
-        padding: 1rem; /* Asegura que haya suficiente espacio alrededor del contenido */
+        padding: 1.5rem; /* Asegura que haya suficiente espacio alrededor del contenido */
     }
 
     h1 {
-        font-size: 1.5rem; /* Ajusta el tamaño de los títulos principales */
+        font-size: 2rem; /* Ajusta el tamaño de los títulos principales */
     }
 
     h2 {
-        font-size: 1.25rem; /* Ajusta el tamaño de los títulos secundarios */
+        font-size: 1.75rem; /* Ajusta el tamaño de los títulos secundarios */
     }
 
     p {
-        font-size: 0.875rem; /* Ajusta el tamaño de los párrafos */
+        font-size: 1.125rem; /* Ajusta el tamaño de los párrafos */
     }
 
     .btn {
-        font-size: 1rem; /* Ajusta el tamaño de las fuentes en los botones */
-        padding: 0.5rem 1rem; /* Ajusta el padding de los botones */
+        font-size: 1.25rem; /* Ajusta el tamaño de las fuentes en los botones */
+        padding: 0.75rem 1.5rem; /* Ajusta el padding de los botones */
     }
 
     .tabs button {
         width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
-        margin-bottom: 0.5rem; /* Espacio entre los botones */
+        margin-bottom: 1rem; /* Espacio entre los botones */
     }
 
     .resultado-item img {
@@ -58,24 +58,24 @@ body {
 /* Estilos para dispositivos con pantallas muy pequeñas (por ejemplo, teléfonos en orientación vertical) */
 @media (max-width: 480px) {
     body {
-        font-size: 12px; /* Reduce aún más el tamaño de la fuente */
+        font-size: 20px; /* Aumenta aún más el tamaño de la fuente en pantallas muy pequeñas */
     }
 
     h1 {
-        font-size: 1.25rem; /* Reduce el tamaño de los títulos principales */
+        font-size: 2.5rem; /* Aumenta el tamaño de los títulos principales */
     }
 
     h2 {
-        font-size: 1rem; /* Reduce el tamaño de los títulos secundarios */
+        font-size: 2rem; /* Aumenta el tamaño de los títulos secundarios */
     }
 
     .container {
-        padding: 0.5rem; /* Reduce el padding en contenedores */
+        padding: 1rem; /* Ajusta el padding en contenedores */
     }
 
     .btn {
-        font-size: 0.875rem; /* Reduce el tamaño de la fuente en los botones */
-        padding: 0.25rem 0.5rem; /* Ajusta el padding de los botones */
+        font-size: 1.5rem; /* Aumenta el tamaño de la fuente en los botones */
+        padding: 1rem 2rem; /* Ajusta el padding de los botones */
     }
 }
 
