@@ -3,7 +3,82 @@ body {
     margin: 20;
     padding: 30;
     background-color: #f0f0f0;
+    font-size: 16px; /* Tamaño base para el texto */
+    line-height: 1.5; /* Mejora la legibilidad del texto */
 }
+
+
+
+/* Estilos específicos para dispositivos con pantallas más pequeñas */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce el tamaño de la fuente en dispositivos móviles */
+    }
+
+    header {
+        padding: 1rem; /* Aumenta el padding en el header para mayor espacio */
+    }
+
+    .container {
+        padding: 1rem; /* Asegura que haya suficiente espacio alrededor del contenido */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Ajusta el tamaño de los títulos principales */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Ajusta el tamaño de los títulos secundarios */
+    }
+
+    p {
+        font-size: 0.875rem; /* Ajusta el tamaño de los párrafos */
+    }
+
+    .btn {
+        font-size: 1rem; /* Ajusta el tamaño de las fuentes en los botones */
+        padding: 0.5rem 1rem; /* Ajusta el padding de los botones */
+    }
+
+    .tabs button {
+        width: 100%; /* Asegura que los botones ocupen todo el ancho disponible */
+        margin-bottom: 0.5rem; /* Espacio entre los botones */
+    }
+
+    .resultado-item img {
+        width: 100%; /* Hace que las imágenes ocupen todo el ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    .carousel {
+        width: 100%; /* Ajusta el ancho del carrusel */
+    }
+}
+
+/* Estilos para dispositivos con pantallas muy pequeñas (por ejemplo, teléfonos en orientación vertical) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Reduce aún más el tamaño de la fuente */
+    }
+
+    h1 {
+        font-size: 1.25rem; /* Reduce el tamaño de los títulos principales */
+    }
+
+    h2 {
+        font-size: 1rem; /* Reduce el tamaño de los títulos secundarios */
+    }
+
+    .container {
+        padding: 0.5rem; /* Reduce el padding en contenedores */
+    }
+
+    .btn {
+        font-size: 0.875rem; /* Reduce el tamaño de la fuente en los botones */
+        padding: 0.25rem 0.5rem; /* Ajusta el padding de los botones */
+    }
+}
+
 
 .container {
     width: 100%;
