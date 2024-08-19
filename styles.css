@@ -25,7 +25,7 @@ nav {
 }
 
 #logo {
-    max-height: 120px; /* Asegura que el logo no sea demasiado grande */
+    max-height: 80px; /* Asegura que el logo no sea demasiado grande */
 }
 
 #menu-items {
@@ -142,7 +142,7 @@ footer {
 }
 
 /* Estilo para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .resultado-item img {
         width: 100%; /* Aumenta el tamaño de la imagen en dispositivos móviles */
         max-width: none;
