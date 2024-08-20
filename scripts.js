@@ -377,6 +377,7 @@ if (encontrados.length > 0) {
             otroContenedor.innerHTML = ''; // Limpia el contenido
         }
     resultadosDiv.innerHTML = `
+        
         <div class="resultado-item">
             ${encontrados.map((img, index) => `
                 <img src="${img}" alt="Imagen de colchón" style="display: ${index === 0 ? 'block' : 'none'};">
