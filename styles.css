@@ -59,6 +59,17 @@ main {
     padding: 1rem;
 }
 
+
+
+#carrusel-contenedor {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden; /* Esto asegurará que el contenido adicional no se desborde */
+    margin: 0 auto; /* Esto centrará el contenedor si es necesario */
+}
+
+
+
 section {
     margin-bottom: 2rem;
     padding: 1rem;
