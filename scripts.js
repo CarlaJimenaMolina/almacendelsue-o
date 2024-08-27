@@ -13,345 +13,303 @@ const colchones = [
     {
         nombre: "Colchón Doral Pillow Top",
         pesoSoportado: "100",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Doral Pillow.jpg"
+        imagen: "imagenes/Fichas/Resorte/1.jpg"
     },
     {
         nombre: "Colchón Doral Pillow Top",
         pesoSoportado: "100",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Doral Pillow.jpg"
+        imagen: "imagenes/Fichas/Resorte/1.jpg"
     },
     {
         nombre: "Colchón Doral Pillow Top",
         pesoSoportado: "100",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Doral Pillow.jpg"
+        imagen: "imagenes/Fichas/Resorte/1.jpg"
     },
     {
         nombre: "Colchón Doral",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Doral.jpg"
+        imagen: "imagenes/Fichas/Resorte/2.jpg"
     },
     {
         nombre: "Colchón Doral",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "1 y media",
-        imagen: "imagenes/Fichas/Doral.jpg"
+        imagen: "imagenes/Fichas/Resorte/2.jpg"
     },
     {
         nombre: "Colchón Doral",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Doral.jpg"
+        imagen: "imagenes/Fichas/Resorte/2.jpg"
     },
     {
         nombre: "Colchón Doral",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Doral.jpg"
+        imagen: "imagenes/Fichas/Resorte/2.jpg"
     },
     {
         nombre: "Colchón Doral",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Doral.jpg"
+        imagen: "imagenes/Fichas/Resorte/2.jpg"
+    },
+    {
+        nombre: "Colchón Exclusive",
+        pesoSoportado: "80",
+        sensacion: "Espuma",
+        tamaño: "1",
+        imagen: "imagenes/Fichas/espuma/3.jpg"
     },
     {
         nombre: "Colchón Especial de Lujo",
         pesoSoportado: "80",
-        sensacion: "Firme",
-        tamaño: "1",
-        imagen: "imagenes/Fichas/Especial de Lujo.jpg"
+        sensacion: "Espuma",
+        tamaño: "1 y media",
+        imagen: "imagenes/Fichas/espuma/3.jpg"
     },
     {
         nombre: "Colchón Especial de Lujo",
         pesoSoportado: "80",
-        sensacion: "Firme",
-        tamaño: "1 y media",
-        imagen: "imagenes/Fichas/Especial de Lujo.jpg"
-    },
-    {
-        nombre: "Colchón Especial de Lujo",
-        pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Especial de Lujo.jpg"
+        imagen: "imagenes/Fichas/espuma/3.jpg"
     },
     {
         nombre: "Exclusive Pillow",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Exclusive Pillow.jpg"
+        imagen: "imagenes/Fichas/espuma/2.jpg"
     },
     {
         nombre: "Exclusive Pillow",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "1 y media",
-        imagen: "imagenes/Fichas/Exclusive Pillow.jpg"
+        imagen: "imagenes/Fichas/espuma/2.jpg"
     },
     {
         nombre: "Exclusive Pillow",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Exclusive Pillow.jpg"
+        imagen: "imagenes/Fichas/espuma/2.jpg"
     },
     {
         nombre: "Exclusive Pillow",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Exclusive Pillow.jpg"
+        imagen: "imagenes/Fichas/espuma/2.jpg"
     },
     {
         nombre: "Exclusive Pillow",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Exclusive Pillow.jpg"
+        imagen: "imagenes/Fichas/espuma/2.jpg"
     },
     {
         nombre: "Exclusive",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Exclusive.jpg"
+        imagen: "imagenes/Fichas/espuma/1.jpg"
     },
     {
         nombre: "Exclusive",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "1 y media",
-        imagen: "imagenes/Fichas/Exclusive.jpg"
+        imagen: "imagenes/Fichas/espuma/1.jpg"
     },
     {
         nombre: "Exclusive",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Exclusive.jpg"
+        imagen: "imagenes/Fichas/espuma/1.jpg"
     },
     {
         nombre: "Exclusive",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Exclusive.jpg"
+        imagen: "imagenes/Fichas/espuma/1.jpg"
     },
     {
         nombre: "Exclusive",
         pesoSoportado: "100",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Exclusive.jpg"
+        imagen: "imagenes/Fichas/espuma/1.jpg"
     },
     {
         nombre: "Platino",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Platino.jpg"
+        imagen: "imagenes/Fichas/Resorte/3.jpg"
     },
     {
         nombre: "Platino",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "1 y medio",
-        imagen: "imagenes/Fichas/Platino.jpg"
+        imagen: "imagenes/Fichas/Resorte/3.jpg"
     },
     {
         nombre: "Platino",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Platino.jpg"
+        imagen: "imagenes/Fichas/Resorte/3.jpg"
     },
     {
         nombre: "Platino",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Platino.jpg"
+        imagen: "imagenes/Fichas/Resorte/3.jpg"
     },
     {
         nombre: "Platino",
         pesoSoportado: "90",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Platino.jpg"
+        imagen: "imagenes/Fichas/Resorte/3.jpg"
     },
     {
         nombre: "Princess",
         pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Princess 23.jpg"
+        imagen: "imagenes/Fichas/espuma/4.jpg"
     },
     {
         nombre: "Princess",
         pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Princess 23.jpg"
+        imagen: "imagenes/Fichas/espuma/4.jpg"
     },
     {
         nombre: "Princess",
         pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "1 y medio",
-        imagen: "imagenes/Fichas/Princess 23.jpg"
-    },
-    {
-        nombre: "Renovation pillow",
-        pesoSoportado: "120",
-        sensacion: "Extra Firme",
-        tamaño: "2",
-        imagen: "imagenes/Fichas/Renovation Pillow.jpg"
-    },
-    {
-        nombre: "Renovation pillow",
-        pesoSoportado: "120",
-        sensacion: "Extra Firme",
-        tamaño: "Queen",
-        imagen: "imagenes/Fichas/Renovation Pillow.jpg"
-    },
-    {
-        nombre: "Renovation pillow",
-        pesoSoportado: "120",
-        sensacion: "Extra Firme",
-        tamaño: "King",
-        imagen: "imagenes/Fichas/Renovation Pillow.jpg"
+        imagen: "imagenes/Fichas/espuma/4.jpg"
     },
     {
         nombre: "Renovation",
         pesoSoportado: "120",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Renovation.jpg"
+        imagen: "imagenes/Fichas/espuma/5.jpg"
     },
     {
         nombre: "Renovation",
         pesoSoportado: "120",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "1 y medio",
-        imagen: "imagenes/Fichas/Renovation.jpg"
+        imagen: "imagenes/Fichas/espuma/5.jpg"
     },
     {
         nombre: "Renovation",
         pesoSoportado: "120",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Renovation.jpg"
+        imagen: "imagenes/Fichas/espuma/5.jpg"
     },
     {
         nombre: "Renovation",
         pesoSoportado: "120",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Renovation.jpg"
+        imagen: "imagenes/Fichas/espuma/5.jpg"
     },
     {
         nombre: "Renovation",
         pesoSoportado: "120",
-        sensacion: "Extra Firme",
+        sensacion: "Espuma",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Renovation.jpg"
+        imagen: "imagenes/Fichas/espuma/5.jpg"
     },
     {
         nombre: "soñar",
         pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Soñar.jpg"
+        imagen: "imagenes/Fichas/Resorte/4.jpg"
     },
     {
         nombre: "soñar",
         pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "1 y medio",
-        imagen: "imagenes/Fichas/Soñar.jpg"
+        imagen: "imagenes/Fichas/Resorte/4.jpg"
     },
     {
         nombre: "soñar",
         pesoSoportado: "80",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Soñar.jpg"
+        imagen: "imagenes/Fichas/Resorte/4.jpg"
     },
     {
         nombre: "sublime Pillow",
         pesoSoportado: "120",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Sublime Pillow.jpg"
+        imagen: "imagenes/Fichas/Resorte/5.jpg"
     },
     {
         nombre: "sublime Pillow",
         pesoSoportado: "120",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "Queen",
-        imagen: "imagenes/Fichas/Sublime Pillow.jpg"
+        imagen: "imagenes/Fichas/Resorte/5.jpg"
     },
     {
         nombre: "sublime Pillow",
         pesoSoportado: "120",
-        sensacion: "Firme",
+        sensacion: "Resorte",
         tamaño: "King",
-        imagen: "imagenes/Fichas/Sublime Pillow.jpg"
-    },
-    {
-        nombre: "sublime",
-        pesoSoportado: "120",
-        sensacion: "Firme",
-        tamaño: "2",
-        imagen: "imagenes/Fichas/sublime"
-    },
-    {
-        nombre: "sublime",
-        pesoSoportado: "120",
-        sensacion: "Firme",
-        tamaño: "Queen",
-        imagen: "imagenes/Fichas/sublime"
-    },
-    {
-        nombre: "sublime",
-        pesoSoportado: "120",
-        sensacion: "Firme",
-        tamaño: "2",
-        imagen: "imagenes/Fichas/sublime"
+        imagen: "imagenes/Fichas/Resorte/5.jpg"
     },
     {
         nombre: "Tropical",
         pesoSoportado: "70",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "1",
-        imagen: "imagenes/Fichas/Tropical.jpg"
+        imagen: "imagenes/Fichas/espuma/6.jpg"
     },
     {
         nombre: "Tropical",
         pesoSoportado: "70",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "1 y medio",
-        imagen: "imagenes/Fichas/Tropical.jpg"
+        imagen: "imagenes/Fichas/espuma/6.jpg"
     },
     {
         nombre: "Tropical",
         pesoSoportado: "70",
-        sensacion: "Firme",
+        sensacion: "Espuma",
         tamaño: "2",
-        imagen: "imagenes/Fichas/Tropical.jpg"
+        imagen: "imagenes/Fichas/espuma/6.jpg"
     }
     // Puedes añadir más colchones aquí si lo deseas
 ];
@@ -362,7 +320,7 @@ let encontrados = [];
 // Recorre cada colchón y verifica si coincide con los filtros seleccionados
 for (const colchon of colchones) {
     if (peso && sensacion && tamaño && 
-        peso <= colchon.pesoSoportado && 
+        parseInt(peso) <= parseInt(colchon.pesoSoportado) && 
         sensacion === colchon.sensacion && 
         tamaño === colchon.tamaño) {
         encontrados.push(colchon.imagen);
